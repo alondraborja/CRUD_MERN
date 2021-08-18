@@ -11,7 +11,6 @@ export const TodoForm = ({ todo, onSubmit }) => {
   
     const submitHandler = handleSubmit((data) => {
         onSubmit(data);
-        history.push("/");
     });
 
     return (
